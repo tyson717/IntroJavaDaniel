@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bff7ab7-974e-411e-be68-aebde930d394" name="Changes" comment="Introduction to Java Programming- Daniel Liang">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter7/Ali.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter7/Exercise_7_16_ExecutionTime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter5/DisplayPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter5/DisplayPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,18 +36,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
-}</component>
-  <component name="RunManager" selected="Application.DisplayPattern">
+}]]></component>
+  <component name="RunManager" selected="Application.Exercise_7_16_ExecutionTime">
+    <configuration name="Ali" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter7.Ali" />
+      <module name="IntroJavaDaniel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ComputeThePerimeterOfTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter3.ComputeThePerimeterOfTriangle" />
       <module name="IntroJavaDaniel" />
@@ -72,12 +88,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameLottery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter3.GameLottery" />
+    <configuration name="Exercise7_16_ExecutionTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter5.Exercise7_16_ExecutionTime" />
       <module name="IntroJavaDaniel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter3.*" />
+          <option name="PATTERN" value="chapter5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise_7_16_ExecutionTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter7.Exercise_7_16_ExecutionTime" />
+      <module name="IntroJavaDaniel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,9 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercise_7_16_ExecutionTime" />
+        <item itemvalue="Application.Ali" />
+        <item itemvalue="Application.Exercise7_16_ExecutionTime" />
         <item itemvalue="Application.DisplayPattern" />
         <item itemvalue="Application.ComputeThePerimeterOfTriangle" />
-        <item itemvalue="Application.GameLottery" />
       </list>
     </recent_temporary>
   </component>
@@ -104,7 +135,10 @@
       <workItem from="1664348575222" duration="1972000" />
       <workItem from="1664434648122" duration="1616000" />
       <workItem from="1664439963598" duration="137000" />
-      <workItem from="1664447725597" duration="949000" />
+      <workItem from="1664447725597" duration="1173000" />
+      <workItem from="1664465329921" duration="597000" />
+      <workItem from="1664511496222" duration="598000" />
+      <workItem from="1665598115765" duration="4044000" />
     </task>
     <task id="LOCAL-00001" summary="Introduction to Java Programming- Daniel Liang">
       <created>1664439819295</created>
@@ -120,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664439966475</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Introduction to Java Programming- Daniel Liang">
+      <created>1664448891300</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664448891300</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
