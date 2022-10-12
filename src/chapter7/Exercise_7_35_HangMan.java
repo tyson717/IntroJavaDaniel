@@ -21,7 +21,9 @@ public class Exercise_7_35_HangMan {
             int countMissed = 0;
             int wordLetter = 0;
             while (wordLetter < word.length()) {
-                System.out.println("(Guess) Enter a letter in word " + asterisk + ">");
+                System.out.print("(Guess) Enter a letter in word " );
+                System.out.print(asterisk);
+                System.out.print(">");
                 char guess = input.next().charAt(0);
                 boolean isLetterAlreadyInTheWord = false;
                 boolean isLetterNotIntheWord = true;
@@ -38,6 +40,8 @@ public class Exercise_7_35_HangMan {
                 }
                 if (isLetterAlreadyInTheWord) {
                     System.out.println(guess + " is already in the word");
+                    countMissed++;
+                    continue;
                 }
                 if (isLetterNotIntheWord) {
                     countMissed++;
@@ -46,7 +50,13 @@ public class Exercise_7_35_HangMan {
             }
                 System.out.println("The word is \"" + word + "\". You missed " + countMissed + " time\n" +
                         "Do you want to guess another word? Enter y or n>");
-                answer = input.next().charAt(0);
+            answer = input.next().charAt(0);
+            while (!( answer =='y'||answer=='n')){
+                System.err.println("Invalid answer");
+                System.err.println("Do you want to guess another word? Enter y or n>");
+                answer =input.next().charAt(0);
+            }
+
             }
             System.out.println("Have a nice day :)");
         }
